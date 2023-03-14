@@ -77,8 +77,8 @@ function App() {
       }}
     >
       <div style={{ fontSize: "2rem", textAlign: "center" }}>
-        {isWinner && "Hajde more perhajr e ki ni krembanane"}
-        {isLoser && "Dobsir e karit"}
+        {isWinner && "Gurabija!!"}
+        {isLoser && "Ska gurabija"}
       </div>
       <HangmanDrawing numberOfGuesses={incorrectLetters.length} />
       <HangmanWord
